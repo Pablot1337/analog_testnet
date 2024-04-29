@@ -46,12 +46,11 @@ klikamy next
 
 # Zaawansowane - wymaga ide/webide
 #### Prerekwizyty:
-1. seedy walletu\
-2. utworzony view\
-3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem\
-   tam w szablonie kodu można wybrać javascript
+1. seedy walletu
+2. utworzony view
+3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem -  tam w szablonie kodu można wybrać javascript
 
-#### SetupSetup ide:
+#### Setup ide:
 1. dociągamy pakiety (do wpisania w konsoli)
    npm i @analog-labs/timegraph-js\
    npm i @analog-labs/timegraph-wasm\
@@ -87,4 +86,4 @@ linia 29 - hash view którego chcemy użyć - tu jest wstępnie wpisany mój, mo
 linia 30 - 1 lub więcej pól które są dostępne w ramach view - można je podejrzeć na stronie danego view w zakładce definition - tu jest wstępnie wpisany mój, można zostawić jak jest
 
 5. uruchamiamy kod z poziomu konsoli:\
-     node src/query.mjs\
+     node src/query.mjs
