@@ -75,6 +75,7 @@ tworzy się plik .apiKeys
 > W tym zadaniu poza odpytaniem swojego view, odpytujemy czyjeś i tu fajnie jak byście się wymieniali tymi danymi bo zadanie polega na tym żeby ktoś odpytał wasz view :)
 
 4. tworzymy plik w folderze src i kopiujemy kod z pliku query.mjs\
+   
 pola do uzupełnienia:\
 linia 4 - token "ssk" z pliku .apiKeys\
 linia 10 - hashid waszego view ze stronki\
@@ -85,5 +86,5 @@ linia 23 - nazwa view które odpytujemy - tu jest wstępnie wpisany mój, można
 linia 29 - hash view którego chcemy użyć - tu jest wstępnie wpisany mój, można zostawić jak jest\
 linia 30 - 1 lub więcej pól które są dostępne w ramach view - można je podejrzeć na stronie danego view w zakładce definition - tu jest wstępnie wpisany mój, można zostawić jak jest
 
-5. uruchamiamy kod z poziomu konsoli:\
+6. uruchamiamy kod z poziomu konsoli:\
      node src/query.mjs
