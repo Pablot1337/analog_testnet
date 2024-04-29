@@ -25,11 +25,11 @@ klikamy add functions i wybieramy jedną lub więcej funkcji
    npm i @analog-labs/timegraph-wasm\
    npm i @polkadot/keyring\
    npm i @polkadot/util\
-   npm i @polkadot/wasm-crypto\
+   npm i @polkadot/wasm-crypto
 
 #### Query view
 2. Generujemy token sesji\
-tworzymy plik w folderze src i kopiujemy kod z pliku ssk.mjs\
+tworzymy plik w folderze src i kopiujemy kod z pliku ssk.mjs
 
 pola do uzupełnienia:
 linia 15 - adres walletu\
@@ -37,7 +37,7 @@ linia 23 - słowa seed - po uruchomieniu kodu można usunąć
 
 uruchamiamy kod z poziomu konsoli:\
   node src/ssk2.mjs\
-tworzy się plik .apiKeys\
+tworzy się plik .apiKeys
 
 #### Odpytujemy query
 **!!! UWAGA !!!**
@@ -50,4 +50,4 @@ linia 10 - hashid waszego view ze stronki\
 linia 11 - 1 lub więcej pól które wybraliście w ramach view - można je podejrzeć na stronie danego view w zakładce definition\
 linia 21 - unikalny alias - można dać np swój nick i jakieś cyfry\
 linia 22 - hash view którego chcemy użyć - tu jest wstępnie wpisany mój, można zostawić jak jest\
-linia 23 - nazwa view które odpytujemy - tu jest wstępnie wpisany mój, można zostawić jak jest\
+linia 23 - nazwa view które odpytujemy - tu jest wstępnie wpisany mój, można zostawić jak jest
