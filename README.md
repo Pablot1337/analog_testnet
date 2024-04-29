@@ -35,7 +35,7 @@ klikamy add funds
 #### **!!! UWAGA !!!**
 > bywa tak że mimo posiadanych tokenów $tanlog, na widoku doładowania pokazane jest 0 - trzeba czekać :)
 
-8. tworzenie apikey (jest opcja że jak robi się część zaawansowaną to można to pominąć)
+8. tworzenie apikey (jest opcja że jak robi się część zaawansowaną to można to pominąć)\
 wchodzimy w swój profil\
 zakładka API Keys\
 klikamy +Add API key\
