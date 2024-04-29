@@ -21,10 +21,10 @@ klikamy add functions i wybieramy jedną lub więcej funkcji
 
 #### SetupSetup ide:
 1. dociągamy pakiety (do wpisania w konsoli)
-   npm i @analog-labs/timegraph-js /
-   npm i @analog-labs/timegraph-wasm /
-   npm i @polkadot/keyring /
-   npm i @polkadot/util /
+   npm i @analog-labs/timegraph-js\
+   npm i @analog-labs/timegraph-wasm\
+   npm i @polkadot/keyring\
+   npm i @polkadot/util\
    npm i @polkadot/wasm-crypto
 
 #### Query view
