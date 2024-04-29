@@ -74,7 +74,7 @@ tworzy się plik .apiKeys
 #### **!!! UWAGA !!!**
 > W tym zadaniu poza odpytaniem swojego view, odpytujemy czyjeś i tu fajnie jak byście się wymieniali tymi danymi bo zadanie polega na tym żeby ktoś odpytał wasz view :)
 
-4. tworzymy plik w folderze src i kopiujemy kod z pliku query.mjs
+4. tworzymy plik w folderze src i kopiujemy kod z pliku query.mjs\
 pola do uzupełnienia:\
 linia 4 - token "ssk" z pliku .apiKeys\
 linia 10 - hashid waszego view ze stronki\
