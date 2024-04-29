@@ -51,7 +51,7 @@ klikamy next
 3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem -  tam w szablonie kodu można wybrać javascript
 
 #### Setup ide:
-1. dociągamy pakiety (do wpisania w konsoli)
+1. dociągamy pakiety (do wpisania w konsoli)\
    npm i @analog-labs/timegraph-js\
    npm i @analog-labs/timegraph-wasm\
    npm i @polkadot/keyring\
