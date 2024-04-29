@@ -5,13 +5,13 @@
 3. otwieramy swój profil https://watch.testnet.analog.one/#/profile i kopiujemy adres walletu 
 4. wchodzimy na discord https://discord.com/invite/analog i po weryfikacji używamy kranika #faucet !faucet adreswalletu
 5. tworzymy smart contract:
-smart contract address - wchodzimy na https://etherscan.io/tokens, wybieramy dowolny token i bierzemy adres jego smart contractu - najlepiej jakiś z dalszych pozycji bo adres musi być unikalny w skali analogu (ja wziąłem jakiś "I love puppies")
-identifier - wedle uznania
-tag (tu można użyć np nicka żeby później łatwiej było szukać) - wedle uznania
-description (min 20 znaków) - wedle uznania
-chain - ethereum
-klikamy add functions i wybieramy jedną lub więcej funkcji
-po wybraniu funkcji klikamy list
+smart contract address - wchodzimy na https://etherscan.io/tokens, wybieramy dowolny token i bierzemy adres jego smart contractu - najlepiej jakiś z dalszych pozycji bo adres musi być unikalny w skali analogu (ja wziąłem jakiś "I love puppies")\
+identifier - wedle uznania\
+tag (tu można użyć np nicka żeby później łatwiej było szukać) - wedle uznania\
+description (min 20 znaków) - wedle uznania\
+chain - ethereum\
+klikamy add functions i wybieramy jedną lub więcej funkcji\
+po wybraniu funkcji klikamy list\
 wchodzimy w utworzony smart contract
 
 6. tworzymy view
@@ -28,8 +28,8 @@ wybieramy dowolne use cases\
 klikamy complete a potem go to view page
 
 7. doładowujemy view
-klikamy add funds
-wpisujemy amount
+klikamy add funds\
+wpisujemy amount\
 klikamy add funds
 
 **!!! UWAGA !!!**
@@ -38,9 +38,9 @@ klikamy add funds
 
 # Zaawansowane - wymaga ide/webide
 #### Prerekwizyty:
-1. seedy walletu
-2. utworzony view
-3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem
+1. seedy walletu\
+2. utworzony view\
+3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem\
    tam w szablonie kodu można wybrać javascript
 
 #### SetupSetup ide:
@@ -55,12 +55,12 @@ klikamy add funds
 2. Generujemy token sesji\
 tworzymy plik w folderze src i kopiujemy kod z pliku ssk.mjs
 
-pola do uzupełnienia:
+pola do uzupełnienia:\
 linia 15 - adres walletu\
 linia 23 - słowa seed - po uruchomieniu kodu można usunąć
 
 3. Uruchamiamy kod z poziomu konsoli:\
-  node src/ssk2.mjs\
+  node src/ssk.mjs\
 tworzy się plik .apiKeys
 
 #### Odpytujemy query
@@ -77,3 +77,6 @@ linia 22 - hash view którego chcemy użyć - tu jest wstępnie wpisany mój, mo
 linia 23 - nazwa view które odpytujemy - tu jest wstępnie wpisany mój, można zostawić jak jest\
 linia 29 - hash view którego chcemy użyć - tu jest wstępnie wpisany mój, można zostawić jak jest\
 linia 30 - 1 lub więcej pól które są dostępne w ramach view - można je podejrzeć na stronie danego view w zakładce definition - tu jest wstępnie wpisany mój, można zostawić jak jest
+
+5. uruchamiamy kod z poziomu konsoli:\
+     node src/query.mjs\
