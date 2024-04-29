@@ -32,7 +32,7 @@ klikamy add funds\
 wpisujemy amount\
 klikamy add funds
 
-**!!! UWAGA !!!**
+#### **!!! UWAGA !!!**
 > bywa tak że mimo posiadanych tokenów $tanlog, na widoku doładowania pokazane jest 0 - trzeba czekać :)
 
 8. tworzenie apikey (jest opcja że jak robi się część zaawansowaną to można to pominąć)
@@ -45,12 +45,12 @@ podpisujemy walletem\
 klikamy next
 
 # Zaawansowane - wymaga ide/webide
-#### Prerekwizyty:
+### Prerekwizyty:
 1. seedy walletu
 2. utworzony view
 3. jakieś ide do uruchamiania kodu - ja używałem https://codesandbox.io/ i poniższe kroki będą zgodne z tym środowiskiem -  tam w szablonie kodu można wybrać javascript
 
-#### Setup ide:
+### Setup ide:
 1. dociągamy pakiety (do wpisania w konsoli)\
    npm i @analog-labs/timegraph-js\
    npm i @analog-labs/timegraph-wasm\
@@ -58,7 +58,7 @@ klikamy next
    npm i @polkadot/util\
    npm i @polkadot/wasm-crypto
 
-#### Query view
+### Query view
 2. Generujemy token sesji\
 tworzymy plik w folderze src i kopiujemy kod z pliku ssk.mjs
 
@@ -70,8 +70,8 @@ linia 23 - słowa seed - po uruchomieniu kodu można usunąć
   node src/ssk.mjs\
 tworzy się plik .apiKeys
 
-#### Odpytujemy query
-**!!! UWAGA !!!**
+### Odpytujemy query
+#### **!!! UWAGA !!!**
 > W tym zadaniu poza odpytaniem swojego view, odpytujemy czyjeś i tu fajnie jak byście się wymieniali tymi danymi bo zadanie polega na tym żeby ktoś odpytał wasz view :)
 
 4. tworzymy plik w folderze src i kopiujemy kod z pliku query.mjs
